@@ -16,6 +16,14 @@ body {
 	/*background: transparent; */
 }
 
+.i-am-centered {
+	margin: 0 auto;
+	width: 40%;
+}
+
+.btn {
+	height: 100%;
+}
 
 .main-container {
 	width: 60%;
@@ -39,11 +47,20 @@ body {
 	margin-top: 30px;
 }
 
-
 .container {
 	display: flex;
 	justify-content: center;
 }
+
+.container a {
+	display: flex;
+	align-items: top;
+	justify-content: center;
+	height: 20%; 
+	width: 40%; 
+	margin: auto;
+}
+
 
 
 .sub-container {
@@ -56,9 +73,8 @@ body {
 }
 
 
-
 footer {
-	margin-top: 40px;
+	margin-top: 200px;
 }
 
 
